@@ -1,0 +1,27 @@
+The relationship between likelihood and conditional probability is a common question in statistics and probability theory. While both terms are related, they have distinct meanings and interpretations.
+
+Likelihood:
+
+    In the context of statistical inference, the likelihood refers to the probability of obtaining a set of observations (data) given a specific parameter value.
+    The likelihood function, denoted as L(θ | D), represents the probability of the data D, assuming a parameter value θ.
+    The likelihood function is often used in maximum likelihood estimation (MLE) to find the parameter value that maximizes the likelihood of the observed data.
+    It is important to note that the likelihood is not a probability distribution since it is not necessarily normalized and does not sum up to 1.
+
+
+Conditional Probability:
+
+    Conditional probability refers to the probability of an event occurring, given that another event has already occurred.
+    It represents the probability of event A occurring given that event B has occurred and is denoted as P(A | B).
+    Conditional probability is calculated using the formula P(A | B) = P(A ∩ B) / P(B), where P(A ∩ B) is the probability of both events A and B occurring, and P(B) is the probability of event B occurring.
+    Conditional probability is widely used in various fields, such as Bayesian statistics, machine learning, and decision theory.
+
+
+Relation between Likelihood and Conditional Probability:
+
+    The likelihood function, L(θ | D), is often written as P(D | θ), which might resemble a conditional probability notation.
+    However, it is important to understand that the likelihood function treats the parameter θ as the variable of interest and the data D as fixed, while conditional probability treats both events as random variables.
+    In Bayesian inference, the likelihood function is combined with a prior probability distribution to obtain a posterior probability distribution using Bayes' theorem. In this context, the likelihood is used as the conditional probability P(D | θ).
+    It is crucial to differentiate between the likelihood and conditional probability to avoid confusion and ensure accurate interpretations in statistical analyses.
+
+
+In summary, likelihood and conditional probability are related concepts but have distinct interpretations and uses in statistical inference and probability theory.
