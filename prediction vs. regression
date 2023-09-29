@@ -1,0 +1,21 @@
+The terms "prediction" and "regression" are related but have distinct meanings in the context of machine learning. Here's a breakdown of their differences:
+
+**Prediction**:
+- In machine learning, prediction refers to the process of estimating or forecasting an unknown or future outcome based on available data.
+- It involves using a trained model to make predictions about new, unseen data points.
+- Predictive models are designed to map input features to a target variable or outcome.
+- Predictions can be either discrete or continuous, depending on the nature of the problem.
+
+**Regression**:
+- Regression, on the other hand, is a specific type of predictive modeling that focuses on estimating a continuous target variable.
+- It involves finding the relationship between input features and a continuous output variable.
+- Regression models aim to fit a mathematical function that can predict the value of the target variable given the input features.
+- The goal of regression is to minimize the difference between predicted and actual values, typically using a loss function such as mean squared error (MSE).
+
+**Difference between Prediction and Regression**:
+- Prediction is a broad term that encompasses various types of machine learning tasks, including regression.
+- Regression specifically deals with predicting a continuous output variable, whereas other types of prediction tasks, such as classification, may involve discrete output variables.
+- Regression models are focused on estimating a quantitative value, while other prediction tasks may involve estimating a class label or probability.
+- Regression models use mathematical functions to model the relationship between input features and the output variable, whereas other prediction models may use different algorithms or techniques.
+
+In summary, prediction is a general term that can refer to different types of machine learning tasks, including regression. Regression, however, is a specific type of prediction task that focuses on estimating a continuous output variable.
