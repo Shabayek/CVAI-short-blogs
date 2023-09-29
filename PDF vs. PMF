@@ -1,0 +1,20 @@
+The terms "probability density function" (PDF) and "probability mass function" (PMF) are related but have different meanings in probability theory and statistics.
+
+**Probability Density Function (PDF)**:
+- The probability density function is used to describe the probability distribution of a continuous random variable.
+- It represents the relative likelihood of a continuous random variable taking on a specific value within a given range.
+- The PDF is a non-negative function, and the area under the curve over a specific range represents the probability of the random variable falling within that range.
+- The integral of the PDF over its entire range is equal to 1.
+
+**Probability Mass Function (PMF)**:
+- The probability mass function is used to describe the probability distribution of a discrete random variable.
+- It gives the probability that a discrete random variable takes on a specific value.
+- The PMF assigns probabilities to individual values of the random variable, rather than ranges as in the case of the PDF.
+- The sum of the probabilities assigned by the PMF over all possible values of the random variable is equal to 1.
+
+**Difference between PDF and PMF**:
+- The main difference between the PDF and PMF lies in the type of random variable they describe.
+- The PDF is used for continuous random variables/3%3A_Discrete_Random_Variables/3.2%3A_Probability_Mass_Functions_(PMFs)_and_Cumulative_Distribution_Functions_(CDFs)_for_Discrete_Random_Variables), while the PMF is used for discrete random variables.
+- The PDF represents probabilities as a smooth curve, while the PMF represents probabilities as a set of discrete values.
+
+In summary, the PDF is used for continuous random variables and describes the probability distribution using a smooth curve, while the PMF is used for discrete random variables and assigns probabilities to individual values.
