@@ -1,0 +1,48 @@
+#### PCA and ICA: Understanding the Differences
+
+PCA (Principal Component Analysis) and ICA (Independent Component Analysis) are both popular dimensionality reduction techniques used in machine learning and signal processing. While they share some similarities, they have distinct differences in their objectives and methods. Let's explore the key differences between PCA and ICA:
+
+**1. Objective:**
+
+- **PCA:** The primary objective of PCA is to find a new set of orthogonal components, called principal components, that capture the maximum variance in the data. It aims to summarize the data by finding a lower-dimensional representation while preserving as much information as possible.
+
+- **ICA:** In contrast, the objective of ICA is to find a new set of components that are statistically independent from each other. It aims to separate the mixed sources in the data by assuming that the observed signals are linear combinations of unknown independent source signals.
+
+**2. Assumptions:**
+
+- **PCA:** PCA assumes that the observed signals are Gaussian or at least linearly related. It seeks to find the directions (principal components) along which the data has the maximum variance.
+
+- **ICA:** ICA assumes that the observed signals are a linear mixture of statistically independent sources. It relaxes the assumption of Gaussianity and seeks to find components that are as independent as possible.
+
+**3. Orthogonality vs. Independence:**
+
+- **PCA:** The principal components obtained in PCA are orthogonal to each other. This means that they are uncorrelated but not necessarily independent.
+
+- **ICA:** In ICA, the components are aimed to be statistically independent. While they may or may not be orthogonal, the focus is on finding components that are as independent as possible.
+
+**4. Number of Components:**
+
+- **PCA:** PCA ranks the components based on their importance, with the first component explaining the maximum variance. The user can choose to keep a certain number of top-ranked components or specify a desired variance to retain.
+
+- **ICA:** In ICA, the number of components retained is typically equal to the number of sources to be separated. The components are not ranked in terms of importance, as all components are considered equally independent.
+
+**5. Interpretability:**
+
+- **PCA:** PCA provides a new set of components that are linear combinations of the original features. These components may not have a clear interpretation in terms of the original features.
+
+- **ICA:** ICA provides a more interpretable representation of the data, as each component represents a single source signal. This can aid in understanding the underlying structure of the data and making informed decisions.
+
+It's important to note that both PCA and ICA have their strengths and limitations, and their suitability depends on the specific problem and data at hand. PCA is widely used for dimensionality reduction, while ICA is often used for blind source separation and signal processing tasks where the assumption of source independence holds.
+
+**References:**
+
+- [1] Independent Component Analysis (ICA) | by Shawhin Talebi ...
+- [2] What is the difference between PCA and ICA? - Quora
+- [3] Independent Component Analysis vs Principal Component Analysis - GeeksforGeeks
+- [4] PCA/LDA/ICA : a components analysis algorithms comparison | by ...
+- [5] ML | Independent Component Analysis - GeeksforGeeks
+- [6] Linear independence vs statistical independence (PCA and ICA ...
+- [7] A Basic Comparison Between Factor Analysis, PCA, and ICA ...
+- [8] Principal Component Analysis vs. Independent Component Analysis ...
+- [9] Comparing PCA and ICA: A Comprehensive Guide  All The ...
+- [10] Intro to PCA and ICA
