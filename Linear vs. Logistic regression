@@ -1,0 +1,35 @@
+#### Difference between Linear Regression and Logistic Regression
+
+Linear regression and logistic regression are both popular statistical models used for different types of problems. Here are the key differences between the two:
+
+**1. Dependent Variable:**
+- **Linear Regression:** Linear regression is used when the dependent variable is continuous. It predicts the value of the dependent variable based on the values of the independent variables.
+- **Logistic Regression:** Logistic regression is used when the dependent variable is categorical or binary. It predicts the probability of an event occurring based on the values of the independent variables.
+
+**2. Output Range:**
+- **Linear Regression:** The output of linear regression is a continuous range of values. It can be any real number, positive or negative.
+- **Logistic Regression:** The output of logistic regression is a probability value between 0 and 1. It represents the likelihood of the event happening.
+
+**3. Model Function:**
+- **Linear Regression:** In linear regression, the relationship between the dependent variable and independent variables is represented by a linear equation. The model assumes a linear relationship between the variables.
+- **Logistic Regression:** Logistic regression uses a logistic function (also known as the sigmoid function) to model the relationship between the dependent variable and independent variables. The logistic function maps the continuous input to a probability value between 0 and 1.
+
+**4. Loss Function:**
+- **Linear Regression:** Linear regression typically uses the Mean Squared Error (MSE) as the loss function. It measures the average squared difference between the predicted and actual values.
+- **Logistic Regression:** Logistic regression uses the maximum likelihood estimation (MLE) as the loss function. It maximizes the likelihood of observing the given data under the assumed logistic distribution.
+
+**5. Interpretability:**
+- **Linear Regression:** In linear regression, the coefficients (slopes) of the independent variables provide information about the direction and magnitude of their impact on the dependent variable.
+- **Logistic Regression:** In logistic regression, the coefficients represent the change in the log-odds of the event happening for a one-unit change in the corresponding independent variable. They provide information about the direction and strength of the relationship.
+
+**6. Application:**
+- **Linear Regression:** Linear regression is commonly used for tasks such as predicting housing prices, sales forecasting, and trend analysis.
+- **Logistic Regression:** Logistic regression is often used for binary classification problems, such as predicting whether an email is spam or not, or whether a customer will churn or not.
+
+It's important to choose the appropriate regression model based on the nature of the dependent variable and the problem at hand. Linear regression is suitable for continuous variables, while logistic regression is suitable for categorical or binary variables where probability estimation is required.
+
+**References:**
+- [1] Regression Analysis | Logistic Regression Vs Linear Regression
+- [2] ML | Linear Regression vs Logistic Regression - GeeksforGeeks
+- [3] Linear vs. Logistic Regression
+- [4] What is the difference between linear regression and logistic regression?
