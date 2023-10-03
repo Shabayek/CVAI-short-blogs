@@ -1,0 +1,30 @@
+How to Prepare Data for LDA (1)
+
+Below are some suggestions that one should always consider while preparing the data to build the LDA model:
+
+Classification Problems: LDA is mainly applied for classification problems to classify the categorical output variable. It is suitable for both binary and multi-class classification problems.
+Gaussian Distribution: The standard LDA model applies the Gaussian Distribution of the input variables. One should review the univariate distribution of each attribute and transform them into more Gaussian-looking distributions. For e.g., use log and root for exponential distributions and Box-Cox for skewed distributions.
+Remove Outliers: It is good to firstly remove the outliers from your data because these outliers can skew the basic statistics used to separate classes in LDA, such as the mean and the standard deviation.
+Same Variance: As LDA always assumes that all the input variables have the same variance, hence it is always a better way to firstly standardize the data before implementing an LDA model. By this, the Mean will be 0, and it will have a standard deviation of 1.
+
+
+The Box-Cox transformation is a statistical technique used to transform non-normal data into a normal distribution. It was developed by statisticians George Box and Sir David Cox in 1964. The transformation is particularly useful when working with dependent variables that do not follow a normal distribution, as many statistical techniques assume normality.
+
+The Box-Cox transformation involves applying a power transformation to the data. The transformation is defined by the parameter lambda (λ), which can take any value from -5 to 5. The optimal value of lambda is selected based on the best approximation of a normal distribution curve.
+
+The formula for the Box-Cox transformation is as follows:
+
+**y = (x^lambda - 1) / lambda**, for lambda ≠ 0
+
+**y = log(x)**, for lambda = 0
+
+where:
+- **x** represents the original data values
+- **y** represents the transformed data values
+
+It's important to note that the Box-Cox transformation assumes that the data values are positive. If negative values are present, an alternative transformation method may be needed.
+
+The Box-Cox transformation is commonly used in various statistical techniques, such as linear regression, to improve the accuracy of predictions. By transforming the data into a normal distribution, we can make assumptions about the errors and improve the validity of tests and confidence intervals.
+
+References:
+(1) https://www.javatpoint.com/linear-discriminant-analysis-in-machine-learning
