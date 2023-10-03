@@ -1,0 +1,47 @@
+#### Difference between LDA and ICA
+
+LDA (Linear Discriminant Analysis) and ICA (Independent Component Analysis) are both dimensionality reduction techniques used in machine learning and signal processing. While they have some similarities, they differ in their objectives and methods. Let's explore the key differences between LDA and ICA:
+
+**1. Objective:**
+
+- **LDA:** The primary objective of LDA is to find a lower-dimensional representation of the data that maximizes the separation between different classes or categories. It aims to find a subspace in which the data points belonging to different classes are well-separated.
+
+- **ICA:** In contrast, the objective of ICA is to find a new set of components that are statistically independent from each other. It assumes that the observed signals are a linear mixture of unknown independent source signals and aims to separate these sources.
+
+**2. Assumptions:**
+
+- **LDA:** LDA assumes that the observed signals belong to different classes or categories and seeks to find a subspace that maximizes the between-class scatter while minimizing the within-class scatter. It assumes that the data follows a Gaussian distribution.
+
+- **ICA:** ICA relaxes the assumption of Gaussianity and assumes that the observed signals are a linear combination of statistically independent sources. It aims to find components that are as independent as possible.
+
+**3. Separability vs. Independence:**
+
+- **LDA:** LDA focuses on maximizing the separability between different classes. It finds a projection that maximizes the ratio of between-class scatter to within-class scatter, aiming to create distinct clusters for different classes.
+
+- **ICA:** ICA aims to find components that are statistically independent. It seeks to separate the mixed sources in the data by assuming that the observed signals are a linear combination of unknown independent source signals.
+
+**4. Supervised vs. Unsupervised:**
+
+- **LDA:** LDA is a supervised dimensionality reduction technique that utilizes class labels to find a subspace that maximizes the separability between different classes. It requires labeled data to perform the analysis.
+
+- **ICA:** ICA is an unsupervised dimensionality reduction technique that does not require any class labels. It aims to find the components solely based on the statistical properties of the observed signals.
+
+**5. Interpretability:**
+
+- **LDA:** LDA provides a lower-dimensional representation of the data that maximizes the separability between classes. The components or dimensions in the LDA space may have an interpretable meaning in terms of the original features.
+
+- **ICA:** ICA provides a new set of components that are statistically independent. While they may or may not be interpretable in terms of the original features, they represent distinct source signals.
+
+Both LDA and ICA have their strengths and limitations, and their suitability depends on the specific problem and data at hand. LDA is often used in classification tasks, while ICA is commonly used for blind source separation and signal processing tasks.
+
+**References:**
+
+- [1] PCA/LDA/ICA: a components analysis algorithms comparison
+- [2] A comparative study of PCA, ICA, and LDA
+- [3] PCA vs ICA vs LDA - ppt download
+- [4] Rethinking LDA: Moment Matching for Discrete ICA
+- [5] Conceptual and empirical comparison of dimensionality reduction algorithms
+- [6] Robust Face Recognition Approaches Using PCA, ICA, LDA Based
+- [7] Automated diagnosis of Coronary Artery Disease affected patients
+- [8] Rethinking LDA: Moment Matching for Discrete ICA
+- [9] The level of serum ionised calcium, aspartate aminotransferase
